@@ -1,0 +1,26 @@
+.certificates__container {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+  margin-top: 50px;
+}
+
+.certificates__title {
+  margin: 0 auto 30px;
+  color: #575757;
+}
+
+.certificates__content {
+  margin: 0 auto 30px auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.certificates__content li {
+  margin-left: -40px;
+}

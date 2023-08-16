@@ -1,0 +1,9 @@
+.app__background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  background: url('../../assets/image/background.png') center no-repeat;
+  background-size: cover;
+}

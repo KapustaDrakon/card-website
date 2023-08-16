@@ -1,0 +1,127 @@
+@media (max-width: 1179px) {
+  .buttons__content {
+    flex-direction: column;
+  }
+
+  .buttons__whatsapp {
+    font-size: 14px;
+  }
+  .buttons__delta {
+    font-size: 14px;
+  }
+  .buttons__online {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1180px) {
+  .buttons__content {
+    flex-direction: row;
+  }
+
+  .buttons__whatsapp {
+    font-size: 18px;
+    width: 340px;
+  }
+  .buttons__delta {
+    font-size: 18px;
+    width: 340px;
+  }
+  .buttons__online {
+    font-size: 18px;
+    width: 340px;
+  }
+}
+
+.buttons__container {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+  margin-top: 50px;
+}
+
+.buttons__title {
+  margin: 0 auto 30px;
+  color: #575757;
+}
+
+.buttons__content {
+  margin: 20px auto;
+  display: flex;
+  /*flex-direction: column;*/
+  gap: 20px;
+
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 0.8s ease 0s;
+}
+
+._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.buttons__whatsapp {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #33a429;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttons__whatsapp:hover {
+  background-color: #24771c;
+}
+
+.buttons__logo {
+  width: 40px;
+}
+
+.buttons__delta {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #e0c4fd;
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttons__delta:hover {
+  background-color: #b7a1cf;
+}
+
+.buttons__online {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #59f06d;
+  color: #000000;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttons__online:hover {
+  background-color: #46c257;
+}
+
+.buttons__text {
+  margin: auto;
+  text-align: center;
+}
